@@ -9,6 +9,7 @@ setuptools.setup(
     version=version,
     install_requires=[
         'odoo-addon-barcodes_generator_abstract>=16.0dev,<16.1dev',
+        'odoo-addon-barcodes_generator_location>=16.0dev,<16.1dev',
         'odoo-addon-barcodes_generator_package>=16.0dev,<16.1dev',
         'odoo-addon-barcodes_generator_product>=16.0dev,<16.1dev',
         'odoo-addon-product_barcode_constraint_per_company>=16.0dev,<16.1dev',
@@ -16,6 +17,7 @@ setuptools.setup(
         'odoo-addon-product_multi_barcode_constraint_per_company>=16.0dev,<16.1dev',
         'odoo-addon-product_multi_barcode_stock_menu>=16.0dev,<16.1dev',
         'odoo-addon-product_packaging_multi_barcode>=16.0dev,<16.1dev',
+        'odoo-addon-stock_picking_product_barcode_report>=16.0dev,<16.1dev',
     ],
     classifiers=[
         'Programming Language :: Python',
